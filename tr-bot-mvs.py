@@ -229,7 +229,7 @@ def buy_order(buycoin,coin,rebalcoin,sym):
     msg3 = "Balance in BTC - Balance BTC %s | Balance %s %s | Balance %s %s | Balance %s %s | Balance %s %s | Balance %s %s" % (bitcoins,coin1,btc_coin1,coin2,btc_coin2,coin3,btc_coin3,coin4,btc_coin4,coin5,btc_coin5)
     msg = msg1 + msg2 + msg3
     message = 'Subject: {}\n\n{}'.format(subject, msg)
-    server.sendmail("miguelvazsilvanotifications@gmail.com", "miguelvazsilva@gmail.com", message)
+    server.sendmail("youremail@gmail.com", "yourdestinationemail@gmail.com", message)
     print("\n")
     print(msg)
     print("\n")
@@ -281,7 +281,7 @@ def sell_order(sellcoin,coin,rebalcoin,sym):
     msg4 = "Balance BTC %s | Balance %s %s | Balance %s %s | Balance %s %s | Balance %s %s | Balance %s %s" % (bitcoins,coin1,coin1_coins,coin2,coin2_coins,coin3,coin3_coins,coin4,coin4_coins,coin5,coin5_coins)
     msg = msg3 + "Sales Notification %s %s | BTC %s \n" % (coin,sellcoin,rebalcoin) + msg4
     message = 'Subject: {}\n\n{}'.format(subject, msg)
-    server.sendmail("miguelvazsilvanotifications@gmail.com", "miguelvazsilva@gmail.com", message)
+    server.sendmail("youremail@gmail.com", "yourdestinationemail@gmail.com", message)
     print("\n")
     print(msg)
     print("\n")
