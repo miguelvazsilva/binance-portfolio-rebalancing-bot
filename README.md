@@ -64,6 +64,7 @@ Configure the altcoins and respective portfolio percentages:
 <li>coin5perc = 10</li></ul>
 
 Configure send email, in the functions buy_order and sell_order:
+
 server.sendmail("youremail@gmail.com", "yourdestinationemail@gmail.com", message)
 
 <h2>Execution</h2>
